@@ -41,6 +41,10 @@ namespace Hangman.Core.Game
                     life--;
                     _renderer.Render(5, 5, life); 
                 }
+                if(life == 0){
+                     Console.SetCursorPosition(0, 20);
+                     Console.WriteLine("Game over!");
+                }
             }
         }  
     }
