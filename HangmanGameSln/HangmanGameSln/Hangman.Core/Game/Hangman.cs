@@ -37,13 +37,9 @@ namespace Hangman.Core.Game
             string guess = Console.ReadLine();
             foreach (string word in words)
             {
-
+                //
             }
         }
-
-       /* public void PlayGame()
-        {
-           
-        }*/
+      
     }
 }
