@@ -15,7 +15,7 @@ namespace Hangman.Core.Game
             _renderer = new GallowsRenderer();
             words = new List<string> { "Hang", "fire", "save", "run", "eating", "jumping", "delete" };
             Random random = new Random();
-            int range = words.Count - 1;
+            int range = words.Count;
             select = random.Next(0, range);
             currentWord = words[select].ToLower();
         }
@@ -29,7 +29,12 @@ namespace Hangman.Core.Game
             Console.SetCursorPosition(0, 13);
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("Your current guess: ");
-            Console.WriteLine("--------------");
+             StringBuilder displayToPlayer = new StringBuilder(currentWord.Length);
+            for (int i = 0; i < wordToGuess.Length; i++)
+                displayToPlayer.Append('_');
+
+            
+            
             Console.SetCursorPosition(0, 15);
 
             Console.ForegroundColor = ConsoleColor.Green;
