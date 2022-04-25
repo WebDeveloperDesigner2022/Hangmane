@@ -28,9 +28,9 @@ namespace Hangman.Core.Game
             int count = 0;
             _renderer.Render(5, 5, 6);// life on maximum
 
-            Console.SetCursorPosition(0, 13);
+            Console.SetCursorPosition(0, 15);
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("Your current guess: ");
+           // Console.Write("Your current guess: ");
 
             char[] displayToPlayer = currentWord.ToCharArray();
             char [] playerToDisplay = new char[displayToPlayer.Length];
@@ -47,7 +47,7 @@ namespace Hangman.Core.Game
             Console.ForegroundColor = ConsoleColor.Green;
 
             Console.Write("What is your next guess: ");
-            Console.SetCursorPosition (0, 17);
+            Console.SetCursorPosition (0, 16);
             Console.WriteLine(displayGuess);
             char nextGuess; 
             
@@ -59,13 +59,13 @@ namespace Hangman.Core.Game
 
                 if (currentWord.Contains(nextGuess))
                 {
-                    Console.SetCursorPosition(0, 15);
+                    //Console.SetCursorPosition(0, 15);
                     
 
                 }
                 else if (!currentWord.Contains(nextGuess))
                 {
-                    Console.SetCursorPosition(0, 15);
+                    //Console.SetCursorPosition(0, 15);
 
                     wrong++;
                     if (wrong == 1)
@@ -100,8 +100,8 @@ namespace Hangman.Core.Game
                 }
                 if (count == currentWord.Length )
                 {
-                    Console.SetCursorPosition(0, 15);
-                    Console.WriteLine($"congradulations you got correct word:  {currentWord}");
+                   // Console.SetCursorPosition(0, 15);
+                    // Console.WriteLine($"congradulations you got correct word:  {currentWord}                                                    ");
                     //break;
                 }
                
