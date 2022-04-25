@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using HangmanRenderer.Renderer;
 
 namespace Hangman.Core.Game
@@ -11,11 +10,12 @@ namespace Hangman.Core.Game
         int select;
         List<string> words;
         string currentWord;
-        string displayGuess;
+        string _displayGuess;
+        
         public HangmanGame()
         {
             _renderer = new GallowsRenderer();
-            words = new List<string> { "Hang", "fire", "save", "run", "eating", "jumping", "delete" };
+            words = new List<string> { "Hang", "fire", "save", "run", "eating", "jumping", "delete", "laptop", "class", "uct", "thanks" };
             Random random = new Random();
             int range = words.Count;
             select = random.Next(0, range);
@@ -25,48 +25,52 @@ namespace Hangman.Core.Game
         public void Run()
         {
             int wrong = 0;
-            int count = 0;
-            _renderer.Render(5, 5, 6);// life on maximum
+            _renderer.Render(5, 5, 6);// lives on maximum
 
-            Console.SetCursorPosition(0, 15);
+            Console.SetCursorPosition(0, 13);
             Console.ForegroundColor = ConsoleColor.Blue;
-           // Console.Write("Your current guess: ");
+            Console.Write("Your current guess: ");
 
-            char[] displayToPlayer = currentWord.ToCharArray();
-            char [] playerToDisplay = new char[displayToPlayer.Length];
+           
             
             for (int i = 0; i < currentWord.Length; i++)
             {
-                displayGuess += "-";
+                _displayGuess += "_";
             }
-             
-            
-            
-            Console.SetCursorPosition(0, 15);
+
 
             Console.ForegroundColor = ConsoleColor.Green;
 
-            Console.Write("What is your next guess: ");
-            Console.SetCursorPosition (0, 16);
-            Console.WriteLine(displayGuess);
+            
+            Console.SetCursorPosition (0, 14);
+            Console.WriteLine(_displayGuess);// setted guess word
             char nextGuess; 
             
-            //Console.WriteLine(currentWord);
+
             while (wrong < 6)
             {
-                Console.SetCursorPosition(0, 13);
+                char[] displayToPlayer = _displayGuess.ToCharArray();
+                Console.SetCursorPosition(0, 16);
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.Write("What is your next guess: ");
+
+                Console.SetCursorPosition(25, 16);
                 nextGuess = char.Parse(Console.ReadLine());
-
-                if (currentWord.Contains(nextGuess))
+               
+                for (int i = 0; i < currentWord.Length; i++)
                 {
-                    //Console.SetCursorPosition(0, 15);
-                    
-
+                    if(nextGuess ==  currentWord[i])
+                    {
+                        displayToPlayer[i] = nextGuess;
+                    }
                 }
-                else if (!currentWord.Contains(nextGuess))
+                 
+                 _displayGuess = new string(displayToPlayer);
+                Console.SetCursorPosition(0, 14);
+                Console.WriteLine(_displayGuess);
+                if (!currentWord.Contains(nextGuess))
                 {
-                    //Console.SetCursorPosition(0, 15);
-
+                    //lives decreasing man get hanged slow
                     wrong++;
                     if (wrong == 1)
                     {
@@ -91,24 +95,22 @@ namespace Hangman.Core.Game
                     if (wrong == 5) { 
                         _renderer.Render(5, 5, 0);
                     }
-                    if (wrong == 6)
+                    if (wrong == 6)// if lives ends
                     {
-                        Console.SetCursorPosition(0, 15);
-                        Console.WriteLine($"word is {currentWord}");
+                        Console.SetCursorPosition(0, 16);
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Game over!.....  Word is {currentWord}                                                                  ");
                         break;
                     }
                 }
-                if (count == currentWord.Length )
+                //if word guessed correctly
+                if (_displayGuess == currentWord)
                 {
-                   // Console.SetCursorPosition(0, 15);
-                    // Console.WriteLine($"congradulations you got correct word:  {currentWord}                                                    ");
-                    //break;
+                    Console.SetCursorPosition(0, 16);
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine($"Congradulations you got correct word:  {currentWord}                                                    ");
+                    break;
                 }
-               
-
-                
-                count++;
-
             }  
         }  
 
