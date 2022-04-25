@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using HangmanRenderer.Renderer;
 
 namespace Hangman.Core.Game
@@ -10,6 +11,7 @@ namespace Hangman.Core.Game
         int select;
         List<string> words;
         string currentWord;
+        string displayGuess;
         public HangmanGame()
         {
             _renderer = new GallowsRenderer();
@@ -29,10 +31,15 @@ namespace Hangman.Core.Game
             Console.SetCursorPosition(0, 13);
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("Your current guess: ");
-             StringBuilder displayToPlayer = new StringBuilder(currentWord.Length);
-            for (int i = 0; i < wordToGuess.Length; i++)
-                displayToPlayer.Append('_');
 
+            char[] displayToPlayer = currentWord.ToCharArray();
+            char [] playerToDisplay = new char[displayToPlayer.Length];
+            
+            for (int i = 0; i < currentWord.Length; i++)
+            {
+                displayGuess += "-";
+            }
+             
             
             
             Console.SetCursorPosition(0, 15);
@@ -40,22 +47,26 @@ namespace Hangman.Core.Game
             Console.ForegroundColor = ConsoleColor.Green;
 
             Console.Write("What is your next guess: ");
+            Console.SetCursorPosition (0, 17);
+            Console.WriteLine(displayGuess);
             char nextGuess; 
             
             //Console.WriteLine(currentWord);
             while (wrong < 6)
             {
+                Console.SetCursorPosition(0, 13);
                 nextGuess = char.Parse(Console.ReadLine());
 
                 if (currentWord.Contains(nextGuess))
                 {
-                    Console.WriteLine("Your guess is correct.");
+                    Console.SetCursorPosition(0, 15);
                     
+
                 }
                 else if (!currentWord.Contains(nextGuess))
                 {
-                    Console.WriteLine("You guess was wrong");
-                    Console.WriteLine("Guess again.....");
+                    Console.SetCursorPosition(0, 15);
+
                     wrong++;
                     if (wrong == 1)
                     {
@@ -82,13 +93,16 @@ namespace Hangman.Core.Game
                     }
                     if (wrong == 6)
                     {
+                        Console.SetCursorPosition(0, 15);
                         Console.WriteLine($"word is {currentWord}");
                         break;
                     }
                 }
-                if (count == currentWord.Length)
+                if (count == currentWord.Length )
                 {
+                    Console.SetCursorPosition(0, 15);
                     Console.WriteLine($"congradulations you got correct word:  {currentWord}");
+                    //break;
                 }
                
 

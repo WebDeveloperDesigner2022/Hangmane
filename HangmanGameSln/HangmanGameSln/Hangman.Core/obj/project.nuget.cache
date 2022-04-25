@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fvXJBzkroEfAH6i1FBAr5YoIsWkH7uWZCkXpImovt7snX1vcPT4E2sf8l92sjoq5igY6xFuGp7oefMxnlThB2A==",
+  "dgSpecHash": "S0IF4hhWRmTEbt3MkGWQtdQmSeyth64dn+RoeQ877J9a0CrLTfVhLdcckaQwZ6lFays3kzbOYE3Jh8jP5JPvYQ==",
   "success": true,
-  "projectFilePath": "C:\\C# exercises\\repos\\Hangmane\\HangmanGameSln\\HangmanGameSln\\Hangman.Core\\Hangman.Core.csproj",
+  "projectFilePath": "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\Hangman.Core\\Hangman.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
