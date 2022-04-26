@@ -74,30 +74,21 @@ namespace Hangman.Core.Game
                 if (!currentWord.Contains(nextGuess))
                 {
                     //lives decreasing man get hanged slow
+
+                   
                     wrong++;
                     if (wrong == 1)
-                    {
                         _renderer.Render(5, 5, 5);
-                    }
                     if (wrong == 2)
-                    {
                         _renderer.Render(5, 5, 4);
-                    }
                     if (wrong == 3)
-                    {
                         _renderer.Render(5, 5, 3);
-                    }
                     if (wrong == 4)
-                    {
                         _renderer.Render(5, 5, 2);
-                    }
                     if (wrong == 5)
-                    {
                         _renderer.Render(5, 5, 1);
-                    }
-                    if (wrong == 5) { 
+                    if (wrong == 5) 
                         _renderer.Render(5, 5, 0);
-                    }
                     if (wrong == 6)// if lives ends
                     {
                         Console.SetCursorPosition(0, 16);
