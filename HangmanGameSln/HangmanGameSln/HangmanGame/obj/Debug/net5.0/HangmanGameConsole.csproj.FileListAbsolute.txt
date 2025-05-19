@@ -1,40 +1,40 @@
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.exe
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.deps.json
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.runtimeconfig.json
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.runtimeconfig.dev.json
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.dll
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.pdb
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\Hangman.Core.dll
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanRenderer.dll
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\Hangman.Core.pdb
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.csproj.AssemblyReference.cache
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.GeneratedMSBuildEditorConfig.editorconfig
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.AssemblyInfoInputs.cache
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.AssemblyInfo.cs
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.csproj.CoreCompileInputs.cache
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.csproj.CopyComplete
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.dll
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\refint\HangmanGameConsole.dll
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.pdb
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.genruntimeconfig.cache
-C:\excercises\repos\HangmanGame\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\ref\HangmanGameConsole.dll
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.exe
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.deps.json
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.runtimeconfig.json
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.runtimeconfig.dev.json
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.dll
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanGameConsole.pdb
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\Hangman.Core.dll
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\HangmanRenderer.dll
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\bin\Debug\net5.0\Hangman.Core.pdb
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.csproj.AssemblyReference.cache
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.GeneratedMSBuildEditorConfig.editorconfig
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.AssemblyInfoInputs.cache
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.AssemblyInfo.cs
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.csproj.CoreCompileInputs.cache
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.csproj.CopyComplete
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.dll
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\refint\HangmanGameConsole.dll
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.pdb
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\HangmanGameConsole.genruntimeconfig.cache
-C:\C# exercises\repos\Hangmane\HangmanGameSln\HangmanGameSln\HangmanGame\obj\Debug\net5.0\ref\HangmanGameConsole.dll
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.exe
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.deps.json
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.runtimeconfig.json
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.runtimeconfig.dev.json
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.dll
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.pdb
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/Hangman.Core.dll
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanRenderer.dll
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/Hangman.Core.pdb
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.csproj.AssemblyReference.cache
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.AssemblyInfoInputs.cache
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.AssemblyInfo.cs
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.csproj.CoreCompileInputs.cache
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.csproj.CopyComplete
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.dll
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/refint/HangmanGameConsole.dll
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.pdb
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.genruntimeconfig.cache
+C:/excercises/repos/HangmanGame/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/ref/HangmanGameConsole.dll
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.exe
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.deps.json
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.runtimeconfig.json
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.runtimeconfig.dev.json
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.dll
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanGameConsole.pdb
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/Hangman.Core.dll
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/HangmanRenderer.dll
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/bin/Debug/net5.0/Hangman.Core.pdb
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.csproj.AssemblyReference.cache
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.AssemblyInfoInputs.cache
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.AssemblyInfo.cs
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.csproj.CoreCompileInputs.cache
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.csproj.CopyComplete
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.dll
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/refint/HangmanGameConsole.dll
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.pdb
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/HangmanGameConsole.genruntimeconfig.cache
+C:/C# exercises/repos/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/Debug/net5.0/ref/HangmanGameConsole.dll

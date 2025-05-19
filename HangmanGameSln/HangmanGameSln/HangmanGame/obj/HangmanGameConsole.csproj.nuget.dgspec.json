@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\HangmanGame\\HangmanGameConsole.csproj": {}
+    "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/HangmanGameConsole.csproj": {}
   },
   "projects": {
-    "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\Hangman.Core\\Hangman.Core.csproj": {
+    "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/Hangman.Core/Hangman.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\Hangman.Core\\Hangman.Core.csproj",
+        "projectUniqueName": "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/Hangman.Core/Hangman.Core.csproj",
         "projectName": "Hangman.Core",
-        "projectPath": "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\Hangman.Core\\Hangman.Core.csproj",
-        "packagesPath": "C:\\Users\\Ishmael\\.nuget\\packages\\",
-        "outputPath": "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\Hangman.Core\\obj\\",
+        "projectPath": "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/Hangman.Core/Hangman.Core.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/Hangman.Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ishmael\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -38,18 +32,24 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,40 +58,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\HangmanGame\\HangmanGameConsole.csproj": {
+    "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/HangmanGameConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\HangmanGame\\HangmanGameConsole.csproj",
+        "projectUniqueName": "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/HangmanGameConsole.csproj",
         "projectName": "HangmanGameConsole",
-        "projectPath": "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\HangmanGame\\HangmanGameConsole.csproj",
-        "packagesPath": "C:\\Users\\Ishmael\\.nuget\\packages\\",
-        "outputPath": "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\HangmanGame\\obj\\",
+        "projectPath": "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/HangmanGameConsole.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/HangmanGame/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ishmael\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\Hangman.Core\\Hangman.Core.csproj": {
-                "projectPath": "C:\\excercises\\repos\\HangmanGame\\HangmanGameSln\\HangmanGameSln\\Hangman.Core\\Hangman.Core.csproj"
+              "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/Hangman.Core/Hangman.Core.csproj": {
+                "projectPath": "/workspaces/Hangmane/HangmanGameSln/HangmanGameSln/Hangman.Core/Hangman.Core.csproj"
               }
             }
           }
@@ -100,18 +94,24 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -120,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
